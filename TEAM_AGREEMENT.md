@@ -5,7 +5,7 @@ Este documento establece las reglas de convivencia, comunicación y estándares 
 ## 1. Miembros del Equipo y Roles
 | Nombre | Rol | Usuario de GitHub |
 | :--- | :--- | :--- |
-| [Nombre del Aprendiz 1] | Líder (Arquitecto) | `@usuario1` |
+| [Juan David Martínez Rojas] | Líder (Arquitecto) | `@jdmartinezrs` |
 | [Andres Fermin Albarracin Ortega] | Desarrollador | `@AndresFermin22` |
 | [Juan Manuel Rodriguez] | Desarrollador | `@JuanMr06` |
 
