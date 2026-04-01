@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #64a1df;      
+    --color-dark-alt: #2c3e50;      
+    --bg-main: #d1e1f8;            
+    --bg-surface: #ffffff;          
+    --bg-semi-trans: rgba(255, 255, 255, 0.7); 
+
+    --text-on-dark: #ffffff;        
+    --text-on-light: #000000;     
+    --text-muted: #666666;        
+    
+    --font-size-base: 16px;         
+    --spacing-gap: 1.5rem;         
+}
+
+body {
+    background-color: var(--bg-main);
+    color: var(--text-on-light);
+    font-family: var(--font-family-body);
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-base);
+    margin: 0;
+}
