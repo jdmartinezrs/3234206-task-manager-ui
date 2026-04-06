@@ -75,6 +75,65 @@ aside{
     
 }
 
+.aside__logo{
+background-image: url(../img/task_manager_ui.png);
+height: 101px;
+    width: 130px;
+    background-size: cover;
+}
+
+.aside_nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside__list{
+    margin-top: 30px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+.aside__item {
+    display: flex;
+    align-items: center;
+}
+.aside__item:hover{
+    border-radius: 10px;
+    padding: 2px;
+    background-color:var(--color-primary) ;
+}
+
+.aside__img--dashboard{
+     height: 30px;
+    width: 30px;
+    background-image: url(../img/dashboard.png);
+    background-size: cover;
+    margin: 15px;
+}
+.aside__img--crear_tarea{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/plus.png);
+    background-size: cover;
+    margin: 15px;
+}
+
+.aside__img--cerrar_sesion{
+    height: 30px;
+    width: 30px;
+    background-image: url(../img/log-out.png);
+    background-size: cover;
+    margin: 15px;
+}
+
+
+.aside__link {
+    color: var(--text-on-dark);
+    text-decoration: none;
+    
+}
 
 main{
     grid-area:main;
@@ -170,6 +229,6 @@ display: flex;
     justify-content: center;
 }
 footer .footer_message {
-
+color:var(--text-on-dark)
 
 }
