@@ -4,13 +4,18 @@
     --bg-main: #d1e1f8;            
     --bg-surface: #ffffff;          
     --bg-semi-trans: rgba(255, 255, 255, 0.7); 
+    --shadow-board-task:  rgba(0, 0, 0, 0.15);
 
-    --text-on-dark: #ffffff;        
-    --text-on-light: #000000;     
+    --text-on-dark: #d1e1f8;        
+    --text-on-light: #2c3e50;     
     --text-muted: #666666;        
     
     --font-size-base: 16px;         
-    --spacing-gap: 1.5rem;         
+    --spacing-gap: 1.5rem;     
+    
+    --column--preferidas: rgb(255, 255, 25);
+    --column--proceso: rgb(243, 138, 64);
+    --board__column--terminadas: rgb(58, 146, 63);
 }
 
 body {
