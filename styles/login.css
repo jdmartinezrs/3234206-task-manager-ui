@@ -1,0 +1,81 @@
+/* Diseño tipo card */
+.card {
+    background-color: var(--bg-surface);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.card-title {
+    text-align: center;
+    color: var(--color-dark-alt);
+    margin-top: 0;
+    margin-bottom: var(--spacing-gap);
+    font-size: 1.8rem;
+}
+
+/* Estructura de los inputs */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.2rem;
+}
+
+.input-group label {
+    margin-bottom: 0.4rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.input-group input {
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: var(--color-primary);
+}
+
+/* Botones */
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--color-primary);
+    color: var(--text-on-dark);
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #538cc4;
+}
+
+/* Enlaces */
+.link-container {
+    margin-top: var(--spacing-gap);
+    text-align: center;
+}
+
+.link-container a {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.link-container a:hover {
+    text-decoration: underline;
+}
