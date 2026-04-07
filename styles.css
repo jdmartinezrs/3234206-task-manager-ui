@@ -4,14 +4,13 @@
     --bg-main: #d1e1f8;            
     --bg-surface: #ffffff;          
     --bg-semi-trans: rgba(255, 255, 255, 0.7); 
+
     --text-on-dark: #ffffff;        
-    --text-on-light: #000000;      
+    --text-on-light: #000000;     
     --text-muted: #666666;        
     
-    --font-size-base: 16px;        
-    --spacing-gap: 1.5rem;   
-    --font-family-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    --line-height-base: 1.5;     
+    --font-size-base: 16px;         
+    --spacing-gap: 1.5rem;         
 }
 
 body {
@@ -21,8 +20,4 @@ body {
     font-size: var(--font-size-base);
     line-height: var(--line-height-base);
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
 }

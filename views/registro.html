@@ -2,30 +2,38 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Regis1tro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuarios</title>
+    <link rel="stylesheet" href="../styles/main.css">
 </head>
 <body>
 
-    <header>
-        <h1>Resgitro de usuario</h1>
-    </header>
+    <div class="card">
+        <h2 class="card-title">Crear Cuenta</h2>
 
-    <main>
-        <section>
-            <form>
-                <label>Nombre:</label>
-                <input type="text"><br><br>
+        <form action="#" method="POST">
+            <div class="input-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+            </div>
 
-               <label>Correo:</label>
-                <input type="e-mail"><br><br>
+            <div class="input-group">
+                <label for="email">Correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required>
+            </div>
 
-                <label>Contraseña:</label>
-                <input type="password"><br><br>
+            <div class="input-group">
+                <label for="password">Contraseña</label>
+                <input type="password" id="password" name="password" placeholder="Crea una contraseña" required>
+            </div>
 
-                <button>Ingresar</button>
-            </form>
-        </section>
-    </main>
+            <button type="submit" class="btn-primary">Registrarse</button>
+        </form>
+
+        <div class="link-container">
+            <a href="index.html">¿Ya tienes cuenta? Ingresar</a>
+        </div>
+    </div>
 
 </body>
 </html>
