@@ -5,15 +5,18 @@
     margin: 0;
     padding: 0;
     font-family: "Roboto Mono", monospace;
-  font-optical-sizing: auto;
+    font-optical-sizing: auto;
   font-style: normal;
   color: var(--color-dark-alt);
 }
 
 
 #grid{
+  
     display: grid;
-    height: 100vh;
+    min-height: 100vh;
+    width: 100%;
+    
     grid-template-columns: 200px 1fr ;
     grid-template-rows: 80px 1fr 100px;
     grid-template-areas: 'aside header'
@@ -147,7 +150,7 @@ main{
     display: grid;
     gap: 50px;
     grid-template-columns:   repeat(3, 1fr) ;
-    height: 400px;
+    height: auto;
     margin-top: 10px;
 }
 
@@ -181,6 +184,7 @@ background-color: var(--board__column--terminadas);
 }
 
 .board__task{
+  text-decoration: none;
     display: flex;
     margin: 20px;
     height: 130px;
@@ -232,3 +236,4 @@ footer .footer_message {
 color:var(--text-on-dark)
 
 }
+
