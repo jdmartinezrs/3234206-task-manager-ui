@@ -1,6 +1,84 @@
-.board-tarea_nueva{
-    
-   background-color: red;
-    height: 460px;
+.form-container {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px; /* Limita el ancho para que no se estire de más */
+}
+
+.form-header {
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.btn-back {
+    text-decoration: none;
+    color: #0b2e59; /* Azul oscuro corporativo */
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #0b2e59;
+    font-size: 0.95rem;
+}
+
+.form-group input, 
+.form-group textarea, 
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.form-group input:focus, 
+.form-group textarea:focus, 
+.form-group select:focus {
+    outline: none;
+    border-color: #1a56a8; /* Azul al hacer clic */
+}
+
+.form-footer {
+    text-align: center;
     margin-top: 10px;
+}
+
+/* Botón de Crear Tarea con estado HOVER */
+.btn-submit {
+    background: linear-gradient(to bottom, #2b6cb0, #1a4a82);
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 50%;
+}
+
+.btn-submit:hover {
+    background: linear-gradient(to bottom, #1a4a82, #0f2e54); /* Más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
